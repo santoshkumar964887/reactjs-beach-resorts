@@ -1,5 +1,6 @@
 import React from "react";
+import HeaderBackground from "../components/HeaderBackground";
 const Rooms = () => {
-  return <div>Hello from Rooms</div>;
+  return <HeaderBackground header="roomsHero" />;
 };
 export default Rooms;

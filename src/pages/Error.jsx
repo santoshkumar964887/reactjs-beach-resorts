@@ -1,7 +1,7 @@
 import React from "react";
-
+import HeaderBackground from "../components/HeaderBackground";
 const Error = () => {
-  return <div>Hello from error page</div>;
+  return <HeaderBackground />;
 };
 
 export default Error;
