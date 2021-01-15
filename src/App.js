@@ -3,12 +3,19 @@ import "./App.css";
 import HomePage from "./pages/Home";
 import ErrorPage from "./pages/Error";
 import SingleRoomPage from "./pages/SingleRoom";
+import RoomsPage from "./pages/Rooms";
+import NavbarPage from "./components/Navbar";
+import { Route, Switch } from "react-router-dom";
 function App() {
   return (
     <>
-      <HomePage />
-      <SingleRoomPage />
-      <ErrorPage />
+      <NavbarPage />
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/rooms" component={RoomsPage} />
+        <Route exact path="/rooms/:room_name" component={SingleRoomPage} />
+        <Route exact path="*" component={ErrorPage} />
+      </Switch>
     </>
   );
 }
