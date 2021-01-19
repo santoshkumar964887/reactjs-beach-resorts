@@ -26,7 +26,7 @@ class RoomProvider extends Component {
 
   render() {
     return (
-      <RoomContext.Provider value="santosh not">
+      <RoomContext.Provider value={{ ...this.state }}>
         {this.props.children}
       </RoomContext.Provider>
     );
