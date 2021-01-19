@@ -6,14 +6,15 @@ import Title from "./Title";
 export class FeaturedRooms extends Component {
   static contextType = RoomContext;
   render() {
-    const { featuredRooms: rooms1 } = this.context;
-    console.log(rooms1);
+    let { loading, featuredRooms: rooms1 } = this.context;
+    const rooms = rooms1.map((room) => <Room key={room.id} room={room} />);
     return (
-      <div>
-        <Room />
-        from feature
-        <Loading />
-      </div>
+      <section className="featured-rooms">
+        <Title title="Featured Rooms" />
+        <div className="featured-rooms-center">
+          {loading ? <Loading /> : rooms}
+        </div>
+      </section>
     );
   }
 }
