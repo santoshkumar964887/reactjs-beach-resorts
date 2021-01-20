@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import defaultBcg from "../images/room-10.jpeg";
 import { RoomContext } from "../context/RoomContext";
+import StyledHero from "../components/StyledHero.js";
 export default class SingleRoom extends Component {
   constructor(props) {
     super(props);
@@ -41,6 +42,14 @@ export default class SingleRoom extends Component {
       size,
       type,
     } = room;
-    return <div>Hello from single room</div>;
+    return (
+      <StyledHero img={images[0] || this.state.defaultBcg}>
+        <Banner title={`${name} room`}>
+          <Link to="/rooms" className="btn-primary">
+            back to rooms
+          </Link>
+        </Banner>
+      </StyledHero>
+    );
   }
 }
