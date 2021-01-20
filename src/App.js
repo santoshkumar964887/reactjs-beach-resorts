@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/rooms" component={RoomsPage} />
-        <Route exact path="/rooms/:room_name" component={SingleRoomPage} />
+        <Route exact path="/rooms/:slug" component={SingleRoomPage} />
         <Route exact path="*" component={ErrorPage} />
       </Switch>
     </>
