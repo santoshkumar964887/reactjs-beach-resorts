@@ -38,6 +38,7 @@ export default function RoomsFilter({ rooms }) {
             {types}
           </select>
         </div>
+        {/* Guest section */}
         <div className="form-group">
           <label htmlFor="capacity">Guest</label>
           <select
@@ -50,6 +51,7 @@ export default function RoomsFilter({ rooms }) {
             {pepole}
           </select>
         </div>
+        {/* range section */}
         <div className="form-group">
           <label htmlFor="price">room price INR: {price * 7}</label>
           <input
@@ -62,6 +64,51 @@ export default function RoomsFilter({ rooms }) {
             className="form-control"
             id="price"
           />
+        </div>
+        {/* size section */}
+        <div className="form-group">
+          <label htmlFor="size">room size</label>
+          <input
+            type="number"
+            name="minSize"
+            value={minSize}
+            onChange={handleChange}
+            className="size-input"
+            id="size"
+          />
+          <input
+            type="number"
+            name="maxSize"
+            value={maxSize}
+            onChange={handleChange}
+            className="size-input"
+            id="size"
+          />
+        </div>
+        {/* extra section */}
+        <div className="form-group">
+          <div className="single-extra">
+            <input
+              type="checkbox"
+              name="breakfast"
+              checked={breakfast}
+              onChange={handleChange}
+              className="size-input"
+              id="breakfast"
+            />
+            <label htmlFor="breakfast">Breakfast</label>
+          </div>
+          <div className="single-extra">
+            <input
+              type="checkbox"
+              name="pets"
+              checked={pets}
+              onChange={handleChange}
+              className="size-input"
+              id="pets"
+            />
+            <label htmlFor="pets">pets</label>
+          </div>
         </div>
       </form>
     </section>
