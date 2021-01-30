@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/reactjs-beach-resorts/static/css/main.3bb4b66b.chunk.css",
+    "main.js": "/reactjs-beach-resorts/static/js/main.d8800d4d.chunk.js",
+    "main.js.map": "/reactjs-beach-resorts/static/js/main.d8800d4d.chunk.js.map",
+    "runtime-main.js": "/reactjs-beach-resorts/static/js/runtime-main.faf459b3.js",
+    "runtime-main.js.map": "/reactjs-beach-resorts/static/js/runtime-main.faf459b3.js.map",
+    "static/js/2.da69d769.chunk.js": "/reactjs-beach-resorts/static/js/2.da69d769.chunk.js",
+    "static/js/2.da69d769.chunk.js.map": "/reactjs-beach-resorts/static/js/2.da69d769.chunk.js.map",
+    "static/js/3.903195c2.chunk.js": "/reactjs-beach-resorts/static/js/3.903195c2.chunk.js",
+    "static/js/3.903195c2.chunk.js.map": "/reactjs-beach-resorts/static/js/3.903195c2.chunk.js.map",
+    "index.html": "/reactjs-beach-resorts/index.html",
+    "static/css/main.3bb4b66b.chunk.css.map": "/reactjs-beach-resorts/static/css/main.3bb4b66b.chunk.css.map",
+    "static/js/2.da69d769.chunk.js.LICENSE.txt": "/reactjs-beach-resorts/static/js/2.da69d769.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reactjs-beach-resorts/static/media/room-2.48c60181.jpeg",
+    "static/media/details-1.c4851740.jpeg": "/reactjs-beach-resorts/static/media/details-1.c4851740.jpeg",
+    "static/media/details-2.dc89255d.jpeg": "/reactjs-beach-resorts/static/media/details-2.dc89255d.jpeg",
+    "static/media/details-3.f525a3c8.jpeg": "/reactjs-beach-resorts/static/media/details-3.f525a3c8.jpeg",
+    "static/media/details-4.f2053654.jpeg": "/reactjs-beach-resorts/static/media/details-4.f2053654.jpeg",
+    "static/media/loading-gear.00da0785.gif": "/reactjs-beach-resorts/static/media/loading-gear.00da0785.gif",
+    "static/media/logo.54a9b9cb.svg": "/reactjs-beach-resorts/static/media/logo.54a9b9cb.svg",
+    "static/media/room-1.05b90599.jpeg": "/reactjs-beach-resorts/static/media/room-1.05b90599.jpeg",
+    "static/media/room-10.681615dc.jpeg": "/reactjs-beach-resorts/static/media/room-10.681615dc.jpeg",
+    "static/media/room-11.1605f19e.jpeg": "/reactjs-beach-resorts/static/media/room-11.1605f19e.jpeg",
+    "static/media/room-12.7dee4920.jpeg": "/reactjs-beach-resorts/static/media/room-12.7dee4920.jpeg",
+    "static/media/room-3.92fc5b83.jpeg": "/reactjs-beach-resorts/static/media/room-3.92fc5b83.jpeg",
+    "static/media/room-4.10d2e64a.jpeg": "/reactjs-beach-resorts/static/media/room-4.10d2e64a.jpeg",
+    "static/media/room-5.a7c5e078.jpeg": "/reactjs-beach-resorts/static/media/room-5.a7c5e078.jpeg",
+    "static/media/room-6.3697aea3.jpeg": "/reactjs-beach-resorts/static/media/room-6.3697aea3.jpeg",
+    "static/media/room-7.d2c011f0.jpeg": "/reactjs-beach-resorts/static/media/room-7.d2c011f0.jpeg",
+    "static/media/room-8.5b658df9.jpeg": "/reactjs-beach-resorts/static/media/room-8.5b658df9.jpeg",
+    "static/media/room-9.18aabe9f.jpeg": "/reactjs-beach-resorts/static/media/room-9.18aabe9f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faf459b3.js",
+    "static/js/2.da69d769.chunk.js",
+    "static/css/main.3bb4b66b.chunk.css",
+    "static/js/main.d8800d4d.chunk.js"
+  ]
+}
