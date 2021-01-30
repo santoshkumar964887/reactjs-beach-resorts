@@ -12,6 +12,7 @@ function App() {
       <NavbarPage />
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route exact path="/reactjs-beach-resorts" component={HomePage} />
         <Route exact path="/rooms" component={RoomsPage} />
         <Route exact path="/rooms/:slug" component={SingleRoomPage} />
         <Route exact path="*" component={ErrorPage} />

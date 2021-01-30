@@ -2,7 +2,7 @@
   "name": "beach-resorts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://santoshkumar964887.github.io/reactjs-beach-resorts",
+  "homepage": "https://santoshkumar964887.github.io/reactjs-beach-resorts",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
